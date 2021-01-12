@@ -11,12 +11,6 @@ export const DashboardSection = styled.section`
   position: relative;
 `;
 
-export const DolarContainer = styled.div`
-  width: 450px;
-  height: 100%;
-  background-color: ${theme.color.yellow};
-`;
-
 export const PokedexContainer = styled.main`
   width: 550px;
   height: 100%;

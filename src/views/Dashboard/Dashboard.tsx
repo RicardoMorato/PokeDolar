@@ -1,17 +1,12 @@
 import React from "react";
 
-import {
-  DashboardSection,
-  DolarContainer,
-  PokedexContainer,
-} from "./Dashboard.styles";
+import { DashboardSection, PokedexContainer } from "./Dashboard.styles";
+import { DolarValue } from "../../components";
 
 const Dashboard: React.FC = () => {
   return (
     <DashboardSection>
-      <DolarContainer>
-        <p>Dólar hoje: R$1,25</p>
-      </DolarContainer>
+      <DolarValue />
 
       <PokedexContainer>
         <p>Name: Pikachu</p>
