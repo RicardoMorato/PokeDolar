@@ -1,7 +1,7 @@
 import React from "react";
 
 import { DashboardSection, PokedexContainer } from "./Dashboard.styles";
-import { DolarValue } from "../../components";
+import { DolarValue, PokemonImage } from "../../components";
 
 const Dashboard: React.FC = () => {
   return (
@@ -9,8 +9,13 @@ const Dashboard: React.FC = () => {
       <DolarValue />
 
       <PokedexContainer>
-        <p>Name: Pikachu</p>
-        <p>Type: Electric</p>
+        <PokemonImage
+          pokemonNumber={512}
+          pokemonName="simisage"
+          pokemonType="grass"
+          pokemonBaseExp={174}
+          pokemonImg="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png"
+        />
       </PokedexContainer>
     </DashboardSection>
   );

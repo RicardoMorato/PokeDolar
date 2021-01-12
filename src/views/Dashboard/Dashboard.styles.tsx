@@ -12,7 +12,10 @@ export const DashboardSection = styled.section`
 `;
 
 export const PokedexContainer = styled.main`
-  width: 550px;
+  width: 650px;
   height: 100%;
   background-color: ${theme.color.red};
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
