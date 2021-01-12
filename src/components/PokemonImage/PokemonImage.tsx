@@ -18,15 +18,14 @@ const PokemonImage: React.FC<IPokemonImage> = ({
 }) => {
   return (
     <PokemonContainer>
-      <InfoContainer>
-        <SectionHeader>Pokemon com o número {pokemonNumber}</SectionHeader>
+      <SectionHeader>Pokemon com o número {pokemonNumber}</SectionHeader>
 
+      <InfoContainer>
         <SectionMainText>Nome: {pokemonName}</SectionMainText>
         <SectionMainText>Tipo: {pokemonType}</SectionMainText>
         <SectionMainText>
           Experiência base nos jogos: {pokemonBaseExp}
         </SectionMainText>
-
         <PokemonImg src={pokemonImg} />
       </InfoContainer>
     </PokemonContainer>

@@ -22,7 +22,7 @@ export const InfoContainer = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 `;
 
 export const SectionMainText = styled.p`
@@ -31,4 +31,5 @@ export const SectionMainText = styled.p`
 
 export const PokemonImg = styled.img`
   max-height: 300px;
+  align-self: center;
 `;
