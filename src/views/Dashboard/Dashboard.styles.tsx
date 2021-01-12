@@ -1,7 +1,24 @@
 import styled from "styled-components";
 
-export const BaseDiv = styled.div`
-  padding: 15px;
+import theme from "../../styles/theme";
+
+export const DashboardSection = styled.section`
+  height: 100vh;
   width: 100%;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+`;
+
+export const DolarContainer = styled.div`
+  width: 450px;
+  height: 100%;
+  background-color: ${theme.color.yellow};
+`;
+
+export const PokedexContainer = styled.main`
+  width: 550px;
+  height: 100%;
+  background-color: ${theme.color.red};
 `;
