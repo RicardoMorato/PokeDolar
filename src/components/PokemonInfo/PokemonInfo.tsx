@@ -6,10 +6,10 @@ import {
   SectionHeader,
   SectionMainText,
   PokemonImg,
-} from "./PokemonImage.styles";
-import { IPokemonImage } from "./PokemonImage.signature";
+} from "./PokemonInfo.styles";
+import { IPokemonInfo } from "./PokemonInfo.signature";
 
-const PokemonImage: React.FC<IPokemonImage> = ({
+const PokemonInfo: React.FC<IPokemonInfo> = ({
   pokemonNumber,
   pokemonName,
   pokemonType,
@@ -32,4 +32,4 @@ const PokemonImage: React.FC<IPokemonImage> = ({
   );
 };
 
-export default PokemonImage;
+export default PokemonInfo;

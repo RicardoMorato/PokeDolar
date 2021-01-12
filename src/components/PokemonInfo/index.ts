@@ -1,3 +1,3 @@
 import PokemonInfo from "./PokemonInfo";
 
-export { PokemonInfo };
+export default PokemonInfo;

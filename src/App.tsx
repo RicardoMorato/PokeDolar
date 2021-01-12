@@ -1,14 +1,15 @@
 import React from "react";
+import { BrowserRouter } from 'react-router-dom'
 
 import GlobalStyles from "./styles/global";
-import { Dashboard } from "./views";
+import Routes from "./Routes";
 
 function App() {
   return (
-    <section>
+    <BrowserRouter>
       <GlobalStyles />
-      <Dashboard />
-    </section>
+      <Routes />
+    </BrowserRouter>
   );
 }
 

@@ -1,4 +1,4 @@
-export interface IPokemonImage {
+export interface IPokemonInfo {
   pokemonNumber: number;
   pokemonName: string;
   pokemonType: string;
